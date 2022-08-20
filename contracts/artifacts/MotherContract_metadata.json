@@ -1,0 +1,146 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "businessProposals",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_subject",
+						"type": "bytes32"
+					}
+				],
+				"name": "createContractInstance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_messageID",
+						"type": "string"
+					}
+				],
+				"name": "getContractAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_subject",
+						"type": "bytes32"
+					}
+				],
+				"name": "getContractSubject",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "userContractAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MotherContract.sol": "MotherContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BusinessConsensus.sol": {
+			"keccak256": "0x83d730a169ceddb01706a3805c6e13f59c3ad689d7dd7f063e452f75d963fe9c",
+			"urls": [
+				"bzz-raw://cc710542cfc3589684a347ca847e0571c7525004c03dcc84b5f1490aa8de67f6",
+				"dweb:/ipfs/QmcXydCkBBWrPCiSrZ6ULyfmmCGmNyaJeV2fwPwcAyEWws"
+			]
+		},
+		"contracts/MotherContract.sol": {
+			"keccak256": "0x219b37cfe7d4873416597f1ab1625e607669f70356b321c601125a0dcf22f96d",
+			"urls": [
+				"bzz-raw://3d804b539167c9077009b212ad3705807d38da41b34142d95afa003454a0dbb5",
+				"dweb:/ipfs/QmemyMm1nNxeSUnvvJTiHb9rcW47FxjiidvtcDDR9qR46p"
+			]
+		}
+	},
+	"version": 1
+}
